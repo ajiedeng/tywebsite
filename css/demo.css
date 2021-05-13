@@ -1,0 +1,477 @@
+body {
+    line-height: inherit;
+}
+a{
+    outline: none;
+    border:none;
+    text-decoration: none;
+    color: #5a5a5a;
+}
+a:hover{
+    color: initial;
+    text-decoration: none;
+}
+.tabpanel {
+    background: #ECECEC;
+}
+
+.extra-margin {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.slick-initialized .slick-slide {
+    background: #fff;
+    cursor: pointer;
+    outline: none;
+    border:none;
+}
+
+.responsive h5,
+.responsive h6 {
+    text-align: center;
+}
+
+.pb-6,
+.py-6 {
+    padding-bottom: 4rem !important;
+}
+
+@media (max-width: 992px) {
+    .slick-next {
+        right: -10px;
+    }
+
+    .slick-prev {
+        left: -10px;
+    }
+}
+
+.w-6rem {
+    width: 6rem !important;
+}
+.navbar-nav li{
+    position: relative;
+}
+.navbar-nav li a{
+    text-align: center;
+}
+.navbar-nav li.active::after {
+    content: "";
+    position: absolute;
+    background: #000000;
+    border-radius: 2px;
+    width: 24px;
+    height: 3px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/************************************************************************
+* 7- Rows/Sections
+*************************************************************************/
+
+.wpb_row {
+    position: relative;
+    background: #F9F9F9;
+}
+
+.wpb_row.full-width-section {
+    margin-bottom: 0;
+}
+
+.responsive1 {
+    background: white;
+    padding: 40px 0 20px;
+}
+
+.div img {
+    margin: 0 auto;
+}
+
+.div p {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.product-list {
+    padding-top: 40px;
+}
+
+.product-list .card {
+    margin-bottom: 40px;
+}
+
+.product-list .card-title,
+.product-list .card-text:last-child {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+    color: #5a5a5a;
+}
+.product-list .con-pane{
+    display: none;
+}
+.product-list .con-pane:first-child{
+    display: block;
+}
+.responsive1 .div{
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+}
+.div.active{
+    -webkit-filter: brightness(500%);
+    filter: brightness(500%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    filter: grayscale(0%);
+    filter: gray;
+}
+.div.active p{
+    color: #007bff;
+}
+.card-content{
+    margin-top: -30px;
+}
+.card-content .tab-pane:nth-child(2) .arrow{
+    left: 410px;
+}
+.card-content .tab-pane:nth-child(3) .arrow{
+    left: 690px;
+}
+.card-content .tab-pane:nth-child(4) .arrow{
+    left: 960px;
+}
+.arrow {
+    position: relative;
+    width: 0;
+    height: 0;
+    border-width: 0px 8px 28px;
+    border-style: solid;
+    border-color: transparent transparent #DADADA;
+    left: 133px;
+}
+
+.arrow::after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: -8px;
+    border-width: 0 8px 30px;
+    border-style: solid;
+    border-color: transparent transparent #fff;
+}
+
+.divwarp {
+    display: flex;
+}
+
+.detail-content {
+    width: 100%;
+    background: #fff;
+    border: 1px solid #DADADA;
+    padding: 40px 50px 40px;
+    box-sizing: border-box;
+}
+
+.scroll-detail {
+    height: 300px;
+}
+
+.detail-content .swiper-container {
+    height: 100%;
+}
+
+.left-detail {
+    width: 100px;
+}
+
+.detail-container {
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.detail-container p {
+    text-align: left;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+    padding-top: 0;
+    margin-bottom: 0;
+}
+
+/*修改滚动条样式*/
+.detail-container::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+    /**/
+}
+
+.detail-container::-webkit-scrollbar-track {
+    background: rgb(239, 239, 239);
+    border-radius: 2px;
+}
+
+.detail-container::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+}
+
+@media (max-width: 769px) {
+    .card-content .tab-pane:nth-child(4) .arrow,.card-content .tab-pane:nth-child(3) .arrow,.card-content .tab-pane:nth-child(2) .arrow,.card-content .tab-pane:nth-child(1) .arrow{
+        left: 165px!important;
+    }
+}
+
+
+.adv-text{
+    padding-top: 40px;
+}
+.adv .card{
+    background: transparent;
+    border:none;
+}
+.adv .card img{
+    width: 100px;
+    margin: 0 auto;
+}
+
+.solution-plane .product-list{
+    padding-top: 0;
+}
+.case-page h5{
+    padding: 48px 0 37px;
+}
+
+.featurette img{
+    width: 100%;
+}
+
+.case-show{
+    background: #F9F9F9;
+    margin-top: 70px;
+}
+.show-tab img{
+    width: 100%;
+}
+
+
+/* 
+========footer css=======
+*/
+
+.footer {
+    background: #E6E6E6;
+    /* min-width: 1500px;
+    margin: 0 auto; */
+    padding-top: 34px;
+    padding-bottom: 35px;
+}
+
+.g-wrapper {
+    /* width: 1500px;
+    margin: 0 auto; */
+    padding-bottom: 57px;
+}
+
+/* .linkUs {
+    width: 518px;
+    float: left;
+}
+
+.words {
+    width: 539px;
+    float: left;
+} */
+
+.words ul li {
+    padding-bottom: 13px;
+}
+
+.words ul li:hover {
+    color: #1D73FF;
+    cursor: pointer;
+}
+
+.words ul li:first-child p {
+    padding-bottom: 0 !important;
+}
+
+/* .focusUs {
+    float: right;
+} */
+
+.focusUs .icons {
+    position: relative;
+}
+
+.focusUs .icons a {
+    display: inline-block;
+}
+
+.focusUs .icons div {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.focusUs .icons div a {
+    position: absolute;
+    width: 240px;
+    height: 264px;
+    background: #fff;
+    text-align: center;
+    padding-top: 19px;
+    box-sizing: border-box;
+}
+
+.focusUs .icons div p {
+    width: 176px;
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 15px;
+    color: #000000;
+    font-size: 16px;
+}
+
+.icons div a img {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto;
+}
+
+.focusUs .icons div a {
+    bottom: 70px;
+    left: -100px;
+}
+
+.focusUs .icons img.loiocn {
+    margin-right: 24px;
+}
+
+.focusUs h3 {
+    padding-top: 29px;
+    font-size: 18px;
+}
+
+.footer ul li:first-child p {
+    font-size: 18px;
+    color: #333333;
+    padding-bottom: 19px;
+}
+
+.linkUs ul li:hover {
+    animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+    cursor: pointer;
+}
+
+.footer ul li {
+    font-size: 16px;
+    color: #333333;
+    list-style: none;
+}
+
+.focusUs ul li:last-child div {
+    font-size: 16px;
+}
+
+.linkUs ul li img {
+    margin-right: 15px;
+}
+
+.linkUs ul li:nth-child(3) {
+    padding: 23px 0;
+}
+
+.copyright {
+    text-align: center;
+    width: 632px;
+    height: 39px;
+    line-height: 39px;
+    background: #D3D3D3;
+    font-size: 14px;
+    color: #333333;
+    margin: 0 auto;
+}
+
+@keyframes shake {
+
+    10%,
+    90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+
+    20%,
+    80% {
+        transform: translate3d(2px, 0, 0);
+    }
+
+    30%,
+    50%,
+    70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+
+    40%,
+    60% {
+        transform: translate3d(4px, 0, 0);
+    }
+
+}
+
+
+
+/* backtop css */
+p#back-to-top{
+    position:fixed;
+    display:none;
+    bottom:100px;
+    right:80px;
+}
+p#back-to-top a{
+    text-align:center;
+    text-decoration:none;
+    color:#d1d1d1;
+    display:block;
+    width:64px;
+    /*使用CSS3中的transition属性给跳转链接中的文字添加渐变效果*/
+    -moz-transition:color 1s;
+    -webkit-transition:color 1s;
+    -o-transition:color 1s;
+}
+p#back-to-top a:hover{
+    color:#979797;
+}
+p#back-to-top a span{
+    background:transparent url('../images/upbtn.png') no-repeat center center;
+    border-radius:6px;
+    display:block;
+    height:64px;
+    width:56px;
+    margin-bottom:5px;
+    /*使用CSS3中的transition属性给<span>标签背景颜色添加渐变效果*/
+    -moz-transition:background 1s;
+    -webkit-transition:background 1s;
+    -o-transition:background 1s;
+}
+#back-to-top a:hover span{
+    background:transparent url('../images/upbtn.png') no-repeat center center;
+}
+
+@media (max-width: 769px) {
+    p#back-to-top{
+ 
+        right:20px;
+    }
+}

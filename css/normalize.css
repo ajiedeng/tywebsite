@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+/* CSS Document */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body,
+input,
+select,
+button {
+    font-family: "微软雅黑", Arial, Helvetica, sans-serif;
+}
+
+img {
+    border: none;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+.minMain {
+    min-width: 1600px;
+}
+
+.tywg.swiper-container {
+    width: 1524px;
+    padding: 0 38px;
+}
+.clearfix:after {
+    content: '\0020';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+.tywg .swiper-slide,.product-container .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    color: #a9a9a9;
+    font-size: 28px;
+}
+
+.swiper-button-next {
+    right: 0;
+}
+
+.swiper-button-prev {
+    left: 0;
+}
+
+.swiper-container .swiper-slide:last-child {
+    margin-right: 0;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+
+/* .t1, .t2, .t3, .t4 {
+    margin: 100px auto;
+} */

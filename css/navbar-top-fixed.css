@@ -1,0 +1,64 @@
+/* Show it is fixed to the top */
+body {
+    min-height: 75rem;
+}
+
+
+.navbar-brand img {
+    width: 40px;
+    padding-right: 20px;
+    box-sizing: content-box;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+    }
+}
+
+.nav-pills .nav-link .icon-tablist {
+    display: block;
+    padding-bottom: 15px;
+    margin: 0 auto;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+    height: 70px;
+}
+.nav-pills .icon-sjx{
+    display: block;
+    margin: 0 auto;
+    -webkit-filter: brightness(500%);
+    filter: brightness(500%);
+    width: 1.5rem!important;
+}
+.nav-link.active .icon-sjx{
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+}
+.nav-link.active .icon-tablist{
+    -webkit-filter: brightness(500%);
+    filter: brightness(500%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    filter: grayscale(0%);
+    filter: gray;
+}
+.nav-pills .nav-link.active{
+    background-color: transparent;
+    color: #007bff;
+}
+.nav-pills .nav-link{
+    color: gray;
+    padding-bottom: 0;
+}
